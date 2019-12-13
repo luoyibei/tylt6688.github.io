@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://love.tylt.xyz/"/>
   <updated>2019-12-11T05:34:15.302Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://love.tylt.xyz/</id>
   
   <author>
     <name>天宇龙腾</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/12/10/hello-world/"/>
-    <id>http://yoursite.com/2019/12/10/hello-world/</id>
+    <link href="http://love.tylt.xyz/2019/12/10/hello-world/"/>
+    <id>http://love.tylt.xyz/2019/12/10/hello-world/</id>
     <published>2019-12-10T15:13:16.134Z</published>
     <updated>2019-12-11T05:34:15.302Z</updated>
     
