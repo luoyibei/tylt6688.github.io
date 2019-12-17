@@ -102,23 +102,28 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
+    <title>欢迎来到我的博客！</title>
     <link href="http://love.tylt.xyz/2019/12/17/test/"/>
     <id>http://love.tylt.xyz/2019/12/17/test/</id>
     <published>2019-12-16T16:47:03.445Z</published>
-    <updated>2019-12-17T10:20:16.132Z</updated>
+    <updated>2019-12-17T18:15:26.108Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Welcome-to-TYLT"><a href="#Welcome-to-TYLT" class="headerlink" title="Welcome to TYLT!"></a>Welcome to <a href="https://www.tylt.xyz/" target="_blank" rel="noopener">TYLT</a>!</h3><blockquote><p>这是天宇龙腾出品的HEXO博客</p></blockquote><a id="more"></a><blockquote><p>大家有意向的话可以关注一下我的微信公众号《天宇龙腾》</p></blockquote><img src="https://www.tylt.xyz/wp-content/uploads/2019/11/IMG_337620191107-222054.jpg" alt="avatar" style="zoom:40%;" />]]></content>
+    <content type="html"><![CDATA[<h3 id="Welcome-to-TYLT‘s-Blog’"><a href="#Welcome-to-TYLT‘s-Blog’" class="headerlink" title="Welcome to TYLT‘s Blog’!"></a>Welcome to <a href="https://www.tylt.xyz/" target="_blank" rel="noopener">TYLT</a>‘s Blog’!</h3><blockquote><p>这是天宇龙腾出品的HEXO博客，大家有意向的话可以关注一下我的微信公众号《–天宇龙腾–》</p></blockquote><img src="https://www.tylt.xyz/wp-content/uploads/2019/11/IMG_337620191107-222054.jpg" alt="avatar" style="zoom:35%;" />]]></content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;Welcome-to-TYLT&quot;&gt;&lt;a href=&quot;#Welcome-to-TYLT&quot; class=&quot;headerlink&quot; title=&quot;Welcome to TYLT!&quot;&gt;&lt;/a&gt;Welcome to &lt;a href=&quot;https://www.tylt.xyz/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TYLT&lt;/a&gt;!&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;这是天宇龙腾出品的HEXO博客&lt;/p&gt;
-&lt;/blockquote&gt;
+      
+      
+        &lt;h3 id=&quot;Welcome-to-TYLT‘s-Blog’&quot;&gt;&lt;a href=&quot;#Welcome-to-TYLT‘s-Blog’&quot; class=&quot;headerlink&quot; title=&quot;Welcome to TYLT‘s Blog’!&quot;&gt;&lt;/a&gt;Welcome to &lt;a hr
+      
     
     </summary>
     
     
+      <category term="tt" scheme="http://love.tylt.xyz/categories/tt/"/>
+    
+    
+      <category term="test" scheme="http://love.tylt.xyz/tags/test/"/>
     
   </entry>
   

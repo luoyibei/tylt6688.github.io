@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://love.tylt.xyz/about/index.html</loc>
+    <loc>http://love.tylt.xyz/tags/index.html</loc>
     
-    <lastmod>2019-12-17T11:41:27.049Z</lastmod>
+    <lastmod>2019-12-17T18:17:20.253Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://love.tylt.xyz/tags/index.html</loc>
+    <loc>http://love.tylt.xyz/2019/12/17/test/</loc>
     
-    <lastmod>2019-12-17T11:15:48.554Z</lastmod>
+    <lastmod>2019-12-17T18:15:26.108Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://love.tylt.xyz/categories/index.html</loc>
     
-    <lastmod>2019-12-17T11:11:07.119Z</lastmod>
+    <lastmod>2019-12-17T18:10:18.854Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://love.tylt.xyz/about/index.html</loc>
+    
+    <lastmod>2019-12-17T18:09:39.532Z</lastmod>
     
   </url>
   
@@ -30,21 +37,7 @@
   </url>
   
   <url>
-    <loc>http://love.tylt.xyz/2019/12/17/test/</loc>
-    
-    <lastmod>2019-12-17T10:20:16.132Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://love.tylt.xyz/2019/12/10/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</loc>
-    
-    <lastmod>2019-12-17T10:19:08.200Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://love.tylt.xyz/2019/12/17/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B%20-%20%E5%89%AF%E6%9C%AC/</loc>
+    <loc>http://love.tylt.xyz/2019/12/17/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B%20-%20%E5%89%AF%E6%9C%AC%20(2)/</loc>
     
     <lastmod>2019-12-17T10:19:08.200Z</lastmod>
     
@@ -58,7 +51,14 @@
   </url>
   
   <url>
-    <loc>http://love.tylt.xyz/2019/12/17/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B%20-%20%E5%89%AF%E6%9C%AC%20(2)/</loc>
+    <loc>http://love.tylt.xyz/2019/12/17/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B%20-%20%E5%89%AF%E6%9C%AC/</loc>
+    
+    <lastmod>2019-12-17T10:19:08.200Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://love.tylt.xyz/2019/12/10/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</loc>
     
     <lastmod>2019-12-17T10:19:08.200Z</lastmod>
     

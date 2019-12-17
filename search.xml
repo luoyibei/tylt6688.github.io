@@ -202,17 +202,18 @@
 <a id="more"></a>]]></content>
   </entry>
   <entry>
-    <title>Hello World</title>
+    <title>欢迎来到我的博客！</title>
     <url>/2019/12/17/test/</url>
-    <content><![CDATA[<h3 id="Welcome-to-TYLT"><a href="#Welcome-to-TYLT" class="headerlink" title="Welcome to TYLT!"></a>Welcome to <a href="https://www.tylt.xyz/" target="_blank" rel="noopener">TYLT</a>!</h3><blockquote>
-<p>这是天宇龙腾出品的HEXO博客</p>
+    <content><![CDATA[<h3 id="Welcome-to-TYLT‘s-Blog’"><a href="#Welcome-to-TYLT‘s-Blog’" class="headerlink" title="Welcome to TYLT‘s Blog’!"></a>Welcome to <a href="https://www.tylt.xyz/" target="_blank" rel="noopener">TYLT</a>‘s Blog’!</h3><blockquote>
+<p>这是天宇龙腾出品的HEXO博客，大家有意向的话可以关注一下我的微信公众号《–天宇龙腾–》</p>
 </blockquote>
-<a id="more"></a>
-
-<blockquote>
-<p>大家有意向的话可以关注一下我的微信公众号《天宇龙腾》</p>
-</blockquote>
-<img src="https://www.tylt.xyz/wp-content/uploads/2019/11/IMG_337620191107-222054.jpg" alt="avatar" style="zoom:40%;" />]]></content>
+<img src="https://www.tylt.xyz/wp-content/uploads/2019/11/IMG_337620191107-222054.jpg" alt="avatar" style="zoom:35%;" />]]></content>
+      <categories>
+        <category>tt</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
