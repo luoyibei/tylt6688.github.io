@@ -13,15 +13,63 @@
       </tags>
   </entry>
   <entry>
-    <title>这是我测试的文档内容</title>
-    <url>/2019/12/18/test%20-%20%E5%89%AF%E6%9C%AC/</url>
-    <content><![CDATA[<p>各位好呀！这是我用来进行测试的文章！</p>
-<a id="more"></a>]]></content>
+    <title>计算机起源与发展历程</title>
+    <url>/2019/12/18/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%B5%B7%E6%BA%90%E4%B8%8E%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="计算机的起源"><a href="#计算机的起源" class="headerlink" title="计算机的起源"></a>计算机的起源</h2><p>看看计算机如何来的！</p>
+<a id="more"></a>
+
+<p>在原始社会中，人类开始使用结绳，垒石，枝条或刻字等方式进行辅助计算和计数的工具。</p>
+<p>在春秋时期，我们的祖先发明了算筹计数的 “ 筹算法 ” 。</p>
+<p>公元六世纪，中国开始使用算盘作为计算工具，算盘是我国人民独特的创造，是第一种彻底使用十进制计算的工具。</p>
+<p>由于人类一直在追求计算的速度与精度的提高 :</p>
+<blockquote>
+<p>1620年，欧洲的学者发明了对数计算尺。</p>
+</blockquote>
+<blockquote>
+<p>1642年，布莱斯·帕斯卡（Blaise Pascal）发明了机械计算机。</p>
+</blockquote>
+<blockquote>
+<p>1854年，英国数学家布尔（George Boole）提出符号逻辑思想。</p>
+</blockquote>
+<blockquote>
+<p>直到19世纪，英国数学家查尔斯·巴贝奇（Charles Babbage）提出通用数字计算机的基本设计思想，于1822年设计了一台差分机，并于1832年设计一种基于计算自动化的程序控制分析机，提出了几乎完整的计算机设计方案，被誉为计算机之父。</p>
+</blockquote>
+<p>差分机图片（感叹机械之美）</p>
+<img src="https://img-blog.csdnimg.cn/20191218164641395.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3R5bHQ2Njg4,size_16,color_FFFFFF,t_70" style="zoom: 60%;" />
+
+
+
+<h2 id="计算机的发展"><a href="#计算机的发展" class="headerlink" title="计算机的发展"></a>计算机的发展</h2><p>现代计算机就是从古老的计算工具一步步发展过来的，中间经历过的难易程度已经很少找到相关记载。</p>
+<p>到第一台真正意义上的电子计算机出现的时候已经到了20世纪中期。</p>
+<p>1946年，冯 · 诺依曼提出计算机的基本原理：存储程序和程序控制。</p>
+<pre><code>1. 由二进制代替十进制思想 
+
+2. 采用存储程序思想
+
+3. 从逻辑分为CPU(运算器，控制器)，存储器，输入设备，输出设备</code></pre><p>同年第一台计算机ENIAC (埃尼阿克(Electronic Numerical Integrator And Calculator)) 在美国宾夕法尼亚大学现世并正式投入运行，参与研制工作的是宾夕法尼亚大学莫尔电机工程学院的莫克莱和埃克特为首的研制小组。</p>
+<p>冯诺依曼并没有参加 ENIAC 的研制，而是在了解到 ENIAC 项目后，在其基础上带领 ENIAC 的原班人马研制了 EDVAC，重新设计了整个架构，从而奠定了当今所有计算机的结构，从而开始采用二进制进行运算。</p>
+<p>ENIAC重30吨，使用了约18800个真空电子管，功率达174千瓦，占地约140平方米，使用十进制运算，每秒能运算5000次加法，但是它不像现在这样的电脑有输入控制设备，只能通过人工来扳动庞大面板上的各种开关来进行数据信息输入，虽然现在看来它真的很落后，但是在当时它代表着人类计算技术的最高成就，它奠定了电子计算机的发展基础，开辟了信息时代。</p>
+<img src="https://img-blog.csdnimg.cn/20191218163756292.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3R5bHQ2Njg4,size_16,color_FFFFFF,t_70"/>
+
+
+
+<p>后来的日子里面，根据计算机电子器件分为了四个阶段</p>
+<ol>
+<li><p>1946~1957年    电子管    外存：磁鼓，磁带      机器语言、汇编语言   </p>
+</li>
+<li><p>1958~1964年    晶体管    内存：磁芯体         出现程序员</p>
+</li>
+<li><p>1965~1972年    半导体，小规模集成电路          半导体存储器</p>
+</li>
+<li><p>1972年至今      超大规模集成电路<br>————————————————<br>版权声明：本文为CSDN博主「天宇龙腾」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/tylt6688/article/details/102784978" target="_blank" rel="noopener">https://blog.csdn.net/tylt6688/article/details/102784978</a></p>
+</li>
+</ol>
+]]></content>
       <categories>
-        <category>测试</category>
+        <category>计算机基础知识</category>
       </categories>
       <tags>
-        <tag>test</tag>
+        <tag>计算机基础知识</tag>
       </tags>
   </entry>
   <entry>
@@ -48,6 +96,8 @@
       </categories>
       <tags>
         <tag>welcome</tag>
+        <tag>哈哈哈</tag>
+        <tag>嗯嗯嗯</tag>
       </tags>
   </entry>
   <entry>
@@ -55,6 +105,8 @@
     <url>/2019/12/17/%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8%E7%94%B5%E8%84%91/</url>
     <content><![CDATA[<p>工欲善其事必先利其器</p>
 <p>这也是我为什么先写硬件以及系统的原因，只有身体棒，你才可以去做你想做的事情。其他一切都免谈！搞计算机的人，如果自己的枪都磨不好，你拿什么上战场呢？</p>
+<a id="more"></a> 
+
 <p>这句话，只说给经常用电脑的人，例如各位程序员以及像我这样还在路上的未来程序员。</p>
 <p>可能会有些人会说：我不必弄明白这些硬件，我只需要明白一些程序，算法，原理就好。首先第一件事，你要明白一点，你是个学计算机的，除了软件知识，硬件以及你的操作系统环境也要懂一些，这是学校里面老师教的，至于你怎么理解，就看你自己了。</p>
 <p>对于其他行业的人，现在电脑这么普遍，当作爱好以及装13的资本又何尝不好呢？例如帮小姐姐装一个系统，整一个软件，你可能就会收获一份成果。</p>
