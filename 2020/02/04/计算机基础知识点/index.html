@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="../js/clicklove.js"></script>
+  
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/avatar.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/avatar.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/avatar.png">
+  <link rel="mask-icon" href="/images/avatar.png" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-mac-osx.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('https://love.tylt.xyz').hostname,
+    root: '/',
+    scheme: 'Mist',
+    version: '7.6.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":true},
+    copycode: {"enable":true,"show_result":true,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta name="description" content="计算机基础知识大全">
+<meta property="og:type" content="article">
+<meta property="og:title" content="计算机起源与发展历程">
+<meta property="og:url" content="https:&#x2F;&#x2F;love.tylt.xyz&#x2F;2020&#x2F;02&#x2F;04&#x2F;%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9&#x2F;index.html">
+<meta property="og:site_name" content="天宇龙腾的博客">
+<meta property="og:description" content="计算机基础知识大全">
+<meta property="article:published_time" content="2020-02-04T11:30:16.331Z">
+<meta property="article:modified_time" content="2020-02-04T11:33:46.387Z">
+<meta property="article:author" content="天宇龙腾">
+<meta property="article:tag" content="计算机基础知识">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://love.tylt.xyz/2020/02/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true
+  };
+</script>
+
+  <title>计算机起源与发展历程 | 天宇龙腾的博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="天宇龙腾的博客" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">天宇龙腾的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">一条很闲的懒鱼🐟</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://github.com/tylt6688" class="github-corner" title="去我的GitHub关注我！" aria-label="去我的GitHub关注我！" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://love.tylt.xyz/2020/02/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="天宇龙腾">
+      <meta itemprop="description" content="天宇龙腾出品">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="天宇龙腾的博客">
+    </span>
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">
+        计算机起源与发展历程
+      </h1>
+
+      <div class="post-meta">
+
+        
+        <i class="fa fa-thumb-tack"></i>
+        <font color=7D26CD>置顶</font>
+        <span class="post-meta-divider">|</span>
+        
+        <span class="post-meta-item">
+          <span class="post-meta-item-icon">
+            <i class="fa fa-calendar-o"></i>
+          </span>
+          <span class="post-meta-item-text">发表于</span>
+          
+
+          <time title="创建时间：2020-02-04 19:30:16 / 修改时间：19:33:46" itemprop="dateCreated datePublished" datetime="2020-02-04T19:30:16+08:00">2020-02-04</time>
+        </span>
+        <span class="post-meta-item">
+          <span class="post-meta-item-icon">
+            <i class="fa fa-folder-o"></i>
+          </span>
+          <span class="post-meta-item-text">分类于</span>
+          <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+            <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" itemprop="url" rel="index">
+              <span itemprop="name">计算机基础知识</span>
+            </a>
+          </span>
+        </span>
+
+        
+        <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+          <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+          </span>
+          <span class="post-meta-item-text">阅读次数：</span>
+          <span id="busuanzi_value_page_pv"></span>
+        </span><br>
+        <span class="post-meta-item" title="本文字数">
+          <span class="post-meta-item-icon">
+            <i class="fa fa-file-word-o"></i>
+          </span>
+          <span class="post-meta-item-text">本文字数：</span>
+          <span>5.5k</span>
+        </span>
+        <span class="post-meta-item" title="阅读时长">
+          <span class="post-meta-item-icon">
+            <i class="fa fa-clock-o"></i>
+          </span>
+          <span class="post-meta-item-text">阅读时长 &asymp;</span>
+          <span>9 分钟</span>
+        </span>
+
+      </div>
+    </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      <h1 id="计算机基础知识大全"><a href="#计算机基础知识大全" class="headerlink" title="计算机基础知识大全"></a>计算机基础知识大全</h1><a id="more"></a>
+
+<h3 id="信息与数据"><a href="#信息与数据" class="headerlink" title="信息与数据"></a>信息与数据</h3><p>信息论的创始人：美国数学家<strong>香农</strong>，信息的功能是消除事物的不确定性，把不确定性变成确定性。</p>
+<h5 id="信息可以用不同形式的数据表示"><a href="#信息可以用不同形式的数据表示" class="headerlink" title="信息可以用不同形式的数据表示"></a>信息可以用不同形式的数据表示</h5><ul>
+<li>信息是对数据进行加工后的结果，信息的符号化就是数据</li>
+<li>数据是信息的载体，是信息的具体表现形式</li>
+<li>信息是数据的逻辑意义，数据是信息的物理表示</li>
+</ul>
+<h3 id="计算机文化"><a href="#计算机文化" class="headerlink" title="计算机文化"></a>计算机文化</h3><ul>
+<li>出现在<strong>20世纪80年代初</strong></li>
+<li>在<strong>瑞士洛桑</strong>召开的<strong>第三次世界计算机教育大会</strong>上</li>
+</ul>
+<p>文化的核心：<strong>观念</strong>和<strong>价值</strong><br>基本属性：广泛性、传递性、教育性、深刻性</p>
+<h3 id="计算机应用"><a href="#计算机应用" class="headerlink" title="计算机应用"></a>计算机应用</h3><p>主机：中央处理器CPU + 内存储器</p>
+<ol>
+<li>科学计算</li>
+<li>信息管理</li>
+<li>过程控制</li>
+<li>计算机辅助系统<ul>
+<li>计算机辅助设计（CAD）</li>
+<li>计算机辅助制造（CAM）</li>
+<li>计算机辅助测试（CAT）</li>
+<li>计算机辅助教学（CAI）</li>
+<li>计算机辅助教育（CBE）</li>
+<li>计算机管理教学（CMI）</li>
+<li>计算机集成制造系统（CIMS）</li>
+</ul>
+</li>
+<li>人工智能</li>
+<li>计算机网络与通信</li>
+</ol>
+<h5 id="计算机的发展趋势："><a href="#计算机的发展趋势：" class="headerlink" title="计算机的发展趋势："></a>计算机的发展趋势：</h5><p>巨型化，微型化，智能化</p>
+<h5 id="计算机性能指标："><a href="#计算机性能指标：" class="headerlink" title="计算机性能指标："></a>计算机性能指标：</h5><p>​    字长，运算速度，主频（时钟频率），内核数，内存容量</p>
+<p>运算速度的单位  MIPS(Million Instruction Per Second  每秒$10^6$条指令 )   BIPS(Billion Instruction Per Second  每秒$10^9$条指令 )</p>
+<p>计算机存储的基本单位是字节</p>
+<p>一个字节由八位二进制位组成</p>
+<p>科学计算时溢出，数值太大，CPU无法承受，超出机器所能表示的范围</p>
+<p>计算机软件由<strong>程序＋文档</strong>组成</p>
+<p>字是CPU一次 存取加工和传递的数据，这一次传递的数据的二进制位数也就称为字长，与CPU的型号有关</p>
+<p>字节是衡量计算机性能的重要指标，字长越长，速度越快，精度越高</p>
+<p>多国语言支持的Unicode字符集，是一种16位字符编码标准（一个字符用十六位二进制数表示两个字节）包含ASCII字符集（7位二进制表示，最多可以表示128个字符）,</p>
+<p>ASCII码在计算机中表示为一个字节，最高位是0</p>
+<p>同一字母的ASCII码小写比大写大32，16进制的话就是20H，也就是小写字母的顺序在大写字母之后</p>
+<p>显示器分类：①CRT显示器（阴极射线管显示器）大头      ②LCD显示器（液晶显示器）    ③等离子显示器<br>分辨率的单位为像素<br>24位及以上称为真彩显示器</p>
+<p>CPU与其它部件传输的数据就是通过总线<br>总线分为数据总线，控制总线，地址总线（都是串行总线）</p>
+<p>并行总线大部分为有针脚的总线，例如VGA，PS/2</p>
+<p>主板的芯片组分为南北桥</p>
+<p>CMOS芯片（电池） 储存时间，日期，磁盘参数与计算机配置信息</p>
+<p>磁盘驱动器、磁带机属于输入输出设备</p>
+<p>磁盘属于存储设备</p>
+<p>编译程序产生目标程序，解释程序不产生目标程序       </p>
+<p>CD-ROM和DVD都是利用激光技术存储</p>
+<p>汉字输入方法：拼音码，字形码，音形码，流水码</p>
+<p>​                                                                                                                                                                                          </p>
+<h3 id="多媒体计算机系统"><a href="#多媒体计算机系统" class="headerlink" title="多媒体计算机系统"></a>多媒体计算机系统</h3><p><strong>特点：①多样性②实时性③交互性④集成性</strong></p>
+<p>多媒体技术的核心技术，数据压缩与编码技术</p>
+<p>流媒体数据的特点：① 连续性 ② 实时性 ③ 时序性</p>
+<p>多媒体数据在计算机中最终以二进制形式存在</p>
+<p>静态文件格式：BMP，GIF，JPEG；GIF比较特殊，也可以支持动画，MPEG属于动态图像文件格式</p>
+<h3 id="计算机操作系统"><a href="#计算机操作系统" class="headerlink" title="计算机操作系统"></a>计算机操作系统</h3><h5 id="快捷键："><a href="#快捷键：" class="headerlink" title="快捷键："></a>快捷键：</h5><p><strong>Ctrl + 鼠标拖动，复制文件</strong></p>
+<p><strong>Alt + 鼠标拖动，创建相应的快捷方式</strong></p>
+<p>激活应用程序的文件菜单：<strong>Alt + F</strong></p>
+<p><strong>Windows有两个通配符：？和 *</strong></p>
+<ul>
+<li><p>？（问号）表示与一个任意字符相匹配</p>
+</li>
+<li><p>*（星号）表示零个或多个任意字符匹配</p>
+</li>
+</ul>
+<p>Windows7不区分文件名的大小写</p>
+<p>回收站是硬盘上的一块特殊区域，只能存放相应硬盘的删除文件，像软盘、U盘不可以。</p>
+<p>其实每个盘符下面各有一个回收站，桌面上的回收站是所有回收站的总和，回收站可以改变其大小，但是不能被删除。</p>
+<p>剪贴板是内存上的一块区域</p>
+<p>画图程序不是多文档应用程序</p>
+<p>Windows文件组织结构是一种树状结构</p>
+<p>对话框分为模式对话框与非模式对话框</p>
+<p>主程序窗口被禁止的对话框称为模式对话框</p>
+<p>窗口与对话框的区别是窗口有菜单栏对话框没有</p>
+<p>非活动窗口不可以接受用户的键盘与鼠标输入等操作，只有活动窗口可以</p>
+<h3 id="计算机网络"><a href="#计算机网络" class="headerlink" title="计算机网络"></a>计算机网络</h3><h5 id="功能："><a href="#功能：" class="headerlink" title="功能："></a>功能：</h5><p>①数据通信  <strong>②资源共享</strong> （最突出的特征） ③分布式处理  ④提高系统的可靠性</p>
+<p>ping命令测试两台计算机是否连通</p>
+<p>tracert命令显示经过的路径上各个路由器信息</p>
+<p>Internet的前身是ARPANet</p>
+<p>Internet服务提供商（Internet Service Provider）简称ISP</p>
+<p>Internet下载文件是FTP功能</p>
+<p><strong>一级域名 ：</strong>com  商业组织；edu 教育组织；gov 政府部门；mil 军事机构；net 网络服务器；org 非营利性组织</p>
+<p>网卡工作在<strong>物理层、数据链路层</strong><br>功能：① 提供全球唯一的MAC地址，网卡的物理地址 ② 接受网络数据，转换为本机可识别的格式 ③ 将本机要传输的数据按照网络设备的格式上传到网络</p>
+<p>中继器、集线器工作在<strong>物理层</strong></p>
+<p>网桥工作在<strong>数据链路层</strong></p>
+<p>交换机工作在<strong>数据链路层</strong>，可以取代集线器和网桥</p>
+<p>路由器工作在<strong>网际层</strong>，路径选择，数据包的传送，网络设备互联的核心，用于实现不同类型网络的互联</p>
+<p>中继器连接相同网络</p>
+<p>网关工作在传输层，称为协议转换器，连接不同网络</p>
+<p>LAN和WAN主要区别是通信距离与传输速率</p>
+<p>双绞线的最大传输距离是100m，如果要加大传输距离，需要在两段双绞线之间安装中继器，最多可以安装四个中继器，也就是传输距离加中继器后可为500米。</p>
+<p><strong>TCP/IP四个网络层次：</strong>应用层，传输层，网际层，网络层</p>
+<h5 id="IP地址："><a href="#IP地址：" class="headerlink" title="IP地址："></a>IP地址：</h5><p>A类 ： 1<del>126      127作为回路、回访、以及诊断功能地址<br>B类 ：128</del>191<br>C类 ：192~223<br>D类 ：用于多点广播<br>E类 ：保留未用</p>
+<p>由于C类前24位标识网络号，所以只有余下8位表示主机号，可表示2^8，256个，根据Internet网络管理规定，主机号不能全为0或1，所以只能表示254个C类地址。</p>
+<p>子网掩码：判断任意两台计算机IP地址是否属于同一子网，网络标准位全为“1”，主机标准位全为“0”</p>
+<p>URL 全球统一资源定位器，用于标识全球某个网络资源的唯一标志，是信息资源在网上业务类型和如何访问的统一的描述方法<br>格式为：协议名://主机域名或IP/路径名/文件名（<a href="https://www.tylt.xyz/index.jpg）" target="_blank" rel="noopener">https://www.tylt.xyz/index.jpg）</a></p>
+<h5 id="四大主干网络："><a href="#四大主干网络：" class="headerlink" title="四大主干网络："></a>四大主干网络：</h5><ol>
+<li>（ChinaNet）中国公用计算机互联网</li>
+<li>（CerNet）中国教育和科研计算机网</li>
+<li>（CSTNet）中国科技信息网</li>
+<li>（ChinaGBN）中国金桥信息网</li>
+</ol>
+<h3 id="计算机病毒"><a href="#计算机病毒" class="headerlink" title="计算机病毒"></a>计算机病毒</h3><p>可执行性，破坏性，传染性，潜伏性，针对性，衍生性，抗反病毒软件性</p>
+<p>类型：引导区病毒，文件型病毒，混合型病毒，宏病毒（worm蠕虫病毒）</p>
+<p>trojet，木马，人为设计的有破坏性的一组程序，具有隐蔽性</p>
+<p>木马不是病毒，木马程序不依附于任何载体而独立存在，病毒必须依附其它载体存在并具有感染性</p>
+<p>木马主要是窃取密码，包括两部分组成，控制器端和服务器端</p>
+<h3 id="Word"><a href="#Word" class="headerlink" title="Word"></a>Word</h3><h5 id="快捷键：-1"><a href="#快捷键：-1" class="headerlink" title="快捷键："></a>快捷键：</h5><p>打开文件：<strong>Ctrl+O或Ctrl+F12</strong></p>
+<p>保存文件：<strong>Ctrl+S或Shift+F12</strong></p>
+<p>复制：<strong>按住Ctrl键拖动选定的文本或Ctrl+C</strong></p>
+<p>查找：<strong>Ctrl+F</strong></p>
+<p>替换：<strong>Ctrl+H</strong></p>
+<p>定位：<strong>Ctrl+G</strong></p>
+<p>分页：<strong>Ctrl+Enter</strong></p>
+<p>软回车：只换行不换段，<strong>Shift+Enter</strong></p>
+<p>选择矩形区域：<strong>Alt + 鼠标拖动</strong></p>
+<p>Word的主要功能：1.文字编辑和格式化</p>
+<p>​                                2.图形图片图像的处理</p>
+<p>​                                3.表格处理</p>
+<p>​                                4.版本设计与打印</p>
+<p>word表格中的数据不能排序，可以计算</p>
+<p>对表格设置表格线的宽度选择开始中的边框和底纹</p>
+<h5 id="Word的五种视图："><a href="#Word的五种视图：" class="headerlink" title="Word的五种视图："></a>Word的五种视图：</h5><p><strong>页面视图、阅读版式视图、Web版式视图、大纲视图、草稿（普通视图）</strong></p>
+<p>Word的即点即输功能，只在页面视图和Web版式视图才能使用</p>
+<p>页面视图和草稿视图可以显示水平标尺</p>
+<p>草稿视图是适合文本编辑和录入的视图</p>
+<p>页面视图可以看到分栏效果<br>阅读版式视图可以显示以图书的分栏样式</p>
+<p>页面视图只能看到分页效果，草稿视图可以看到分页符</p>
+<p>页眉和页脚只能在页面视图显示</p>
+<p>图文混排是在页面视图方式下实现的</p>
+<p>大纲视图用于显示文档标题的层级结构、长文档的浏览和设置</p>
+<p><strong>选定栏</strong>位于页面编辑区的左侧空白区域</p>
+<p>通配符主要有 ？（一个字符）和 *（多个字符） ，需在英文状态下输入 </p>
+<p>剪切板最多可保存24块剪切或复制的内容</p>
+<p>页眉页脚必须在不同窗口编辑</p>
+<h5 id="拼写和语法检查："><a href="#拼写和语法检查：" class="headerlink" title="拼写和语法检查："></a>拼写和语法检查：</h5><ol>
+<li><p>红色波浪线表示拼写错误或字库中无该字</p>
+</li>
+<li><p>绿色波浪线表示语法错误</p>
+</li>
+</ol>
+<p><strong>波浪线属于不可打印字符，不影响打印效果</strong></p>
+<p>首行缩进：段落中的第一行缩进一定值，只针对第一行有效</p>
+<p>悬挂缩进：段落中除了第一行外，其余所有行缩进一定值</p>
+<p>段落是指两个回车键之间的全部字符</p>
+<p>按回车键产生一个段落标记符，位置在段落的尾部</p>
+<p>双击格式刷能够使用多次，单击格式刷只能使用一次。<br>取消使用格式刷：①按Esc键    ②点击格式刷按钮</p>
+<p>Word具有自动分页功能，页满时会自动换页并插入一个软分页符（不可删除），除此外，还有硬分页符（人工分页符，可删除）</p>
+<p>​    ① 布局选项卡<br>​    ② 分隔符<br>​    ③ 点击分页符按钮</p>
+<p>word表格最多是63列、32767行</p>
+<p>在表格中全选后按Delete键删除的是内容</p>
+<p>设置表格的分页标题显示：点击布局选项卡中的重复标题行</p>
+<p>图表的插入与编辑是使用的OLE技术（链接与嵌入式技术）</p>
+<p>插入图片，编辑图片<br>浮动式对象：可以放置到页面的任意位置，允许与其它对象组合，还可以与正文实现多种形式的环绕<br>嵌入式对象：只能放置到文档插入点的位置，不能与其它对象组合，可以与正文一起排版，不能实现环绕</p>
+<p>域：隐藏在文档中的一组特殊代码组成的命令</p>
+<p>选择矩形文本区，使用鼠标和 Alt 键</p>
+<h3 id="Excel"><a href="#Excel" class="headerlink" title="Excel"></a>Excel</h3><h5 id="快捷键：-2"><a href="#快捷键：-2" class="headerlink" title="快捷键："></a>快捷键：</h5><p>在多个单元格输入相同信息：<strong>Ctrl+Enter</strong></p>
+<p>在当前工作表之前新插入一个工作表：<strong>Shift+F11</strong></p>
+<p>将选定的单元格扩展到最后一个使用的单元格：<strong>Ctrl+Shift+End</strong></p>
+<p>下一列：<strong>Tab</strong></p>
+<p>下一行：<strong>Enter</strong></p>
+<p>工作簿（book）<strong>.xlsx</strong>   一个工作簿由255个工作表（sheet）组成，初始创建时会有三个工作表</p>
+<p>一个工作表最多有1048576行（从1开始），16384列（从A开始）</p>
+<p>工作簿中至少存在1个工作表，并且是可视，不能全部隐藏</p>
+<h5 id="文本类型："><a href="#文本类型：" class="headerlink" title="文本类型："></a>文本类型：</h5><p>字母、汉字、数字、空格、其它字符，<strong>默认左对齐</strong></p>
+<p>数字作为文本，在单元格输入<strong>英文半角单引号’</strong>后输入数字，字长的影响，计算机最多精确到15位，超过后都以0显示，身份证号，邮政编码，公式函数，以0开头的数据（数值型文本）</p>
+<h5 id="数字类型："><a href="#数字类型：" class="headerlink" title="数字类型："></a>数字类型：</h5><p>默认右对齐</p>
+<p><strong>, （逗号）是千位符，每三位加一个</strong></p>
+<p><strong>输入分数时先输入0和空格，否则会被认为日期型</strong></p>
+<p>数字长度超过11位就变为科学计数法</p>
+<h5 id="日期和时间数据类型："><a href="#日期和时间数据类型：" class="headerlink" title="日期和时间数据类型："></a>日期和时间数据类型：</h5><p>默认右对齐，24小时制。输入十二小时制输入后加空格加AM或PM，表示上午或下午<br>① 输入当天日期：<strong>Ctrl + ;</strong><br>② 输入当前时间：<strong>Ctrl + Shift + ;</strong><br>③ 输入当前日期加时间：先 ① 输入空格 再<strong>Ctrl + Shift + :</strong></p>
+<p>公式输入时必须以 = 开头</p>
+<h5 id="单元格的引用："><a href="#单元格的引用：" class="headerlink" title="单元格的引用："></a>单元格的引用：</h5><p>​        相对引用：默认方式<br>​        绝对引用：$加在每一个行号和列号 “=$A$1”<br>​        混合引用：只加一个$表示行绝对引用或列绝对引用</p>
+<p>相对引用、绝对引用、混合引用相互转化可以使用F4</p>
+<p>三维地址引用：格式   [工作簿]工作表名!单元格引用<br>例如[Book]Sheet!A3（表示Book工作簿的工作表的第三行第一列）</p>
+<h5 id="单元格引用运算符："><a href="#单元格引用运算符：" class="headerlink" title="单元格引用运算符："></a>单元格引用运算符：</h5><p>​    ：（冒号）区域表示运算符<br>​        （空格）区域交集运算符<br>​    ，（逗号）区域并集运算符</p>
+<p>行高和列宽的调整：拖动鼠标调整；双击行或列的分割线可自动调整</p>
+<p>选择性粘贴可以实现数据部分特性的复制</p>
+<p>数据清单：类似数据库的特点，具有二维表性质的，行表示记录，列表示字段</p>
+<p>进行分类汇总前必须要先根据分类的字段进行任意的排序</p>
+<p>RANK(number,ref,order)number为排位的数字，ref是单元格区域，必须为绝对引用，order指明排序方式，0或缺省为降序，不为0则进行升序，对重复数排位相同，但会影响后续的数排序</p>
+<p>图表是单元格数据以图显示，图表是对单元格数据的<strong>绝对引用</strong>，改变时都会进行相应的改变<br>一种是嵌入式图表，在同一张工作表中，另一种是独立图表</p>
+<p>函数中的参数可以是常量，变量，单元格，区域，逻辑位，引用，错误值或其他函数</p>
+<h3 id="PPT"><a href="#PPT" class="headerlink" title="PPT"></a>PPT</h3><h5 id="快捷键：-3"><a href="#快捷键：-3" class="headerlink" title="快捷键："></a>快捷键：</h5><p>第一张幻灯片开始放映：<strong>F5或幻灯片放映选项卡中的从头开始</strong></p>
+<p>当前幻灯片开始放映：<strong>Shift+F5或从当前幻灯片开始放映</strong></p>
+<p>插入一个新幻灯片：<strong>Ctrl + M</strong></p>
+<p>.pptx是文件类型</p>
+<p>.potx是模板类型</p>
+<p>保存为幻灯片放映的文件：.ppsx 可直接进行播放</p>
+<p>打包可以在无ppt环境下播放也是打包成 .pptx</p>
+<p><strong>视图：普通视图，幻灯片浏览视图，幻灯片放映视图</strong></p>
+<p>启动时不会自动创建新文档</p>
+<p>演示文稿中的每一个单页被称为幻灯片，是演示文稿的核心，其中每个对象所在的位置被称为版式，可以改变幻灯片的布局。</p>
+<p>模板、配色方案和母版是控制眼视文稿外观的重要手段</p>
+<p>母版：幻灯片母版、讲义母版、备注母版</p>
+<p>超链接技术以及动作设置可以制作更好的交互功能，链接目标不能是某张幻灯片的某个对象</p>
+<p>占位符不可被插入</p>
+<p>插入的超链接中不能是幻灯片中的某个对象</p>
+<p>排练计时用于自动放映</p>
+<h3 id="Access"><a href="#Access" class="headerlink" title="Access"></a>Access</h3><p>扩展名 .accdb</p>
+<p>Access的六种数据库对象：表，查询，窗体，报表，宏，模块</p>
+<p><strong>选择：关系中满足条件的元组</strong></p>
+<p><strong>连接：两个关系的笛卡尔积中选取属性满足一定条件的元组</strong></p>
+<p><strong>投影：从关系中挑出若干个属性列组成新的关系</strong></p>
+<h5 id="五种视图："><a href="#五种视图：" class="headerlink" title="五种视图："></a>五种视图：</h5><ul>
+<li>设计视图</li>
+<li>数据表视图</li>
+<li>SQL视图</li>
+<li>数据透视表视图</li>
+<li>数据透视图视图</li>
+</ul>
+<p>Access管理的关系是若干个二维表格</p>
+<p>二维表形式显示的是数据表视图</p>
+<p>数据库管理系统：DBMS</p>
+<p>数据库管理系统的功能：① 数据定义（DDL）② 数据存取 ③ 数据库运行管理（DML）④ 数据库的建立和维护 ⑤ 数据库的传输</p>
+<p>数据库控制语言（DCL）</p>
+<h5 id="字段命名规则："><a href="#字段命名规则：" class="headerlink" title="字段命名规则："></a>字段命名规则：</h5><p>​    ① 长度最多为64个字符<br>​    ② 可以包含字母、数字、空格以及特殊的字符（除   . ! ‘ [ ] 外  ）<br>​    ③ 不能以空格开头<br>​    ④ 不能包含控制字符（从0~31的ASCII值）</p>
+<p>窗体是数据库与用户交互的最好界面</p>
+<p>报表是用于打印的</p>
+<p>数值和文本可用于建立索引</p>
+
+    </div>
+
+    
+    
+    
+
+    <div>
+      
+
+      <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+
+
+      
+    </div>
+    <div class="reward-container">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="https://tylt6688.coding.net/p/PictureBed/d/PictureBed/git/raw/master/%E5%BE%AE%E4%BF%A1%E8%B5%9E%E8%B5%8F%E7%A0%81.JPG" alt="天宇龙腾 微信支付">
+        <p>微信支付</p>
+      </div>
+
+  </div>
+</div>
+
+
+
+
+    <footer class="post-footer">
+      
+      <div class="post-tags">
+        <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" rel="tag"><i class="fa fa-tag"></i> 计算机基础知识</a>
+      </div>
+
+      
+
+
+      
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2019/12/18/test%20-%20%E5%89%AF%E6%9C%AC%20(2)/" rel="prev" title="这是我测试的文档内容">
+      <i class="fa fa-chevron-left"></i> 这是我测试的文档内容
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+    </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#计算机基础知识大全"><span class="nav-number">1.</span> <span class="nav-text">计算机基础知识大全</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#信息与数据"><span class="nav-number">1.0.1.</span> <span class="nav-text">信息与数据</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#信息可以用不同形式的数据表示"><span class="nav-number">1.0.1.0.1.</span> <span class="nav-text">信息可以用不同形式的数据表示</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#计算机文化"><span class="nav-number">1.0.2.</span> <span class="nav-text">计算机文化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#计算机应用"><span class="nav-number">1.0.3.</span> <span class="nav-text">计算机应用</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#计算机的发展趋势："><span class="nav-number">1.0.3.0.1.</span> <span class="nav-text">计算机的发展趋势：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#计算机性能指标："><span class="nav-number">1.0.3.0.2.</span> <span class="nav-text">计算机性能指标：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#多媒体计算机系统"><span class="nav-number">1.0.4.</span> <span class="nav-text">多媒体计算机系统</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#计算机操作系统"><span class="nav-number">1.0.5.</span> <span class="nav-text">计算机操作系统</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#快捷键："><span class="nav-number">1.0.5.0.1.</span> <span class="nav-text">快捷键：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#计算机网络"><span class="nav-number">1.0.6.</span> <span class="nav-text">计算机网络</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#功能："><span class="nav-number">1.0.6.0.1.</span> <span class="nav-text">功能：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#IP地址："><span class="nav-number">1.0.6.0.2.</span> <span class="nav-text">IP地址：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#四大主干网络："><span class="nav-number">1.0.6.0.3.</span> <span class="nav-text">四大主干网络：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#计算机病毒"><span class="nav-number">1.0.7.</span> <span class="nav-text">计算机病毒</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Word"><span class="nav-number">1.0.8.</span> <span class="nav-text">Word</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#快捷键：-1"><span class="nav-number">1.0.8.0.1.</span> <span class="nav-text">快捷键：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Word的五种视图："><span class="nav-number">1.0.8.0.2.</span> <span class="nav-text">Word的五种视图：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#拼写和语法检查："><span class="nav-number">1.0.8.0.3.</span> <span class="nav-text">拼写和语法检查：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Excel"><span class="nav-number">1.0.9.</span> <span class="nav-text">Excel</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#快捷键：-2"><span class="nav-number">1.0.9.0.1.</span> <span class="nav-text">快捷键：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#文本类型："><span class="nav-number">1.0.9.0.2.</span> <span class="nav-text">文本类型：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#数字类型："><span class="nav-number">1.0.9.0.3.</span> <span class="nav-text">数字类型：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#日期和时间数据类型："><span class="nav-number">1.0.9.0.4.</span> <span class="nav-text">日期和时间数据类型：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#单元格的引用："><span class="nav-number">1.0.9.0.5.</span> <span class="nav-text">单元格的引用：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#单元格引用运算符："><span class="nav-number">1.0.9.0.6.</span> <span class="nav-text">单元格引用运算符：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PPT"><span class="nav-number">1.0.10.</span> <span class="nav-text">PPT</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#快捷键：-3"><span class="nav-number">1.0.10.0.1.</span> <span class="nav-text">快捷键：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Access"><span class="nav-number">1.0.11.</span> <span class="nav-text">Access</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#五种视图："><span class="nav-number">1.0.11.0.1.</span> <span class="nav-text">五种视图：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#字段命名规则："><span class="nav-number">1.0.11.0.2.</span> <span class="nav-text">字段命名规则：</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="天宇龙腾"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">天宇龙腾</p>
+  <div class="site-description" itemprop="description">天宇龙腾出品</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/tylt6688" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;tylt6688" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:2584896007@qq.com" title="E-Mail → mailto:2584896007@qq.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/tylt6688" title="CSDN → https:&#x2F;&#x2F;blog.csdn.net&#x2F;tylt6688" rel="noopener" target="_blank"><i class="fa fa-fw fa-pie-chart"></i>CSDN</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-fw fa-rss"></i>RSS</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title">
+      <i class="fa fa-fw fa-link"></i>
+      Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://www.tylt.xyz/" title="http:&#x2F;&#x2F;www.tylt.xyz" rel="noopener" target="_blank">我的另一个博客</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://love.samelelgx.top/" title="https:&#x2F;&#x2F;love.samelelgx.top" rel="noopener" target="_blank">Gay的博客</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+  <div class="beian">
+      <img src="http://www.beian.gov.cn/portal/download" style="display: inline-block;"> &nbsp;&nbsp;<a href="http://www.beian.miit.gov.cn/" rel="noopener" target="_blank">本网站已进行ICP备案 </a>
+  </div>
+
+<div class="copyright">
+  
+  &copy; 2019 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">天宇龙腾</span>
+</div>
+
+<!-- 网站运行时间的设置 -->
+<span id="timeDate">载入天数...</span>
+<span id="times">载入时分秒...</span>
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("12/12/2019 13:14:00");//此处修改你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+setInterval("createtime()",250);
+</script>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+      您是第
+        <span id="busuanzi_value_site_uv"></span>
+        位访客
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+      历经
+        <span id="busuanzi_value_site_pv"></span>
+      次回眸与您相遇
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  
+  <script color='0,0,100' opacity='0.5' zIndex='-1' count='110' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"log":false});</script></body>
+</html>
+
+
